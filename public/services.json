@@ -1,44 +1,44 @@
 [
     {
       "id": 1,
-      "name": "Replace Tire",
+      "name": "Brain Cancer",
       "price": 2000,
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, ut.",
-      "img": "https://i.ibb.co/52YvF71/photo-1613214149922-f1809c99b414.jpg"
+      "description": "We offers brain cancer services in multiple locations across country. This means you can receive the highest quality care close to home.",
+      "img": "https://i.ibb.co/SvzJJSL/Brain-Cancer.png"
     },
     {
       "id": 2,
-      "name": "Oil Changing",
+      "name": "Cancer Care",
       "price": 1000,
-      "description": "Delectus aperiam voluptatibus ab excepturi tempora repellat explicabo officiis.",
-      "img": "https://i.ibb.co/x72HMVq/photo-1613214150333-53afb7561e6d.jpg"
+      "description": "Modern Healthcare patients can expect comprehensive and individualized cancer care, delivered in nearer location.",
+      "img": "https://i.ibb.co/D1HN8Jv/Cancer-Care.jpg"
     },
     {
       "id": 3,
-      "name": "Brake Reparing",
+      "name": "Cardiology",
       "price": 1500,
-      "description": "Tempore est dolores consectetur debitis quia autem animi maiores? Sed a error quaerat eligendi temporibus",
-      "img": "https://i.ibb.co/khNFpyH/photo-1625047509168-a7026f36de04.jpg"
+      "description": "Our comprehensive heart services include general and preventive cardiology, cardiac testing and imaging, specialized cardiology and cardiac surgery.",
+      "img": "https://i.ibb.co/sFHHgnJ/Cardiology.jpg"
     },
     {
       "id": 4,
-      "name": "Wash and Glassing",
+      "name": "Pediatrics",
       "price": 2500,
-      "description": "Est dolores consectetur debitis quia autem animi maiores? Sed a error quaerat eligendi temporibus",
-      "img": "https://i.ibb.co/JmXkxjt/photo-1618783129985-dd97dbe4ad99.jpg"
+      "description": "At Modern Healthcare, we partner with families to deliver expert, compassionate care to infants, children and teens.",
+      "img": "https://i.ibb.co/bHfwhBv/Pediatrics.jpg"
     },
     {
       "id": 5,
-      "name": "Wheel Alignment",
+      "name": "Ophthalmology",
       "price": 500,
-      "description": "Atque aliquid earum voluptas, delectus quaerat consequuntur quod eveniet non? Culpa, eos consequuntur.",
-      "img": "https://i.ibb.co/7KGVm7K/photo-1601998543706-1aaa490346d1.jpg"
+      "description": "We conduct research in public health ophthalmology and provide high-impact, community-based services. Our Mobile Eye Clinic improves access to care in underserved communities.",
+      "img": "https://i.ibb.co/z4PCpCD/Ophthalmology.jpg"
     },
     {
       "id": 6,
-      "name": "Engine Diagnostic",
+      "name": "Surgery",
       "price": 1200,
-      "description": "Explicabo reiciendis officiis sequi expedita. Atque minus necessitatibus saepe dolorem",
-      "img": "https://i.ibb.co/k5HxgTh/photo-1579966434835-4e3b5d234466.jpg"
+      "description": "Our surgical team includes experts in multiple subspecialty areas who continually research best practices and advance their skills.",
+      "img": "https://i.ibb.co/GHmzt21/Surgery.jpg"
     }
   ]

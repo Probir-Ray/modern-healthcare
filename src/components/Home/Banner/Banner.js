@@ -5,7 +5,7 @@ import './Banner.css';
 const Banner = () => {
     return (
     <>
-        <Carousel>
+        <Carousel className='mt-1'>
             <Carousel.Item>
                 <img
                 className="d-block w-100"

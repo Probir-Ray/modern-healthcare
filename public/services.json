@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "Replace Tire",
+      "price": 2000,
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, ut.",
+      "img": "https://i.ibb.co/52YvF71/photo-1613214149922-f1809c99b414.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Oil Changing",
+      "price": 1000,
+      "description": "Delectus aperiam voluptatibus ab excepturi tempora repellat explicabo officiis.",
+      "img": "https://i.ibb.co/x72HMVq/photo-1613214150333-53afb7561e6d.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Brake Reparing",
+      "price": 1500,
+      "description": "Tempore est dolores consectetur debitis quia autem animi maiores? Sed a error quaerat eligendi temporibus",
+      "img": "https://i.ibb.co/khNFpyH/photo-1625047509168-a7026f36de04.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Wash and Glassing",
+      "price": 2500,
+      "description": "Est dolores consectetur debitis quia autem animi maiores? Sed a error quaerat eligendi temporibus",
+      "img": "https://i.ibb.co/JmXkxjt/photo-1618783129985-dd97dbe4ad99.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Wheel Alignment",
+      "price": 500,
+      "description": "Atque aliquid earum voluptas, delectus quaerat consequuntur quod eveniet non? Culpa, eos consequuntur.",
+      "img": "https://i.ibb.co/7KGVm7K/photo-1601998543706-1aaa490346d1.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Engine Diagnostic",
+      "price": 1200,
+      "description": "Explicabo reiciendis officiis sequi expedita. Atque minus necessitatibus saepe dolorem",
+      "img": "https://i.ibb.co/k5HxgTh/photo-1579966434835-4e3b5d234466.jpg"
+    }
+  ]

@@ -4,6 +4,7 @@ import Home from './components/Home/Home/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import NotFound from './components/Home/NotFound/NotFound';
 import Header from './components/Shared/Header/Header';
+import Services from './components/Home/Services/Services';
 
 function App() {
   return (

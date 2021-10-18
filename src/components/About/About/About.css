@@ -1,0 +1,72 @@
+.about-us {
+    display: flex;
+    justify-content: center;
+}
+
+.about-us img {
+    width: 50%;
+}
+
+.department-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+
+.department {
+    border: 1px solid rgba(221, 221, 221, 0.349);
+    transition: all 0.3s ease-in;
+}
+
+.department:hover {
+    cursor: pointer;
+    background-color: wheat;
+    color: #333;
+}
+.department:hover img {
+    transform: scale(.75);
+}
+
+.department img {
+    height: 150px;
+    width: 120px;
+    object-fit: cover;
+    transform: scale(.5);
+}
+
+@media only screen and (min-width: 992px) {
+    .about-us img {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .department-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .about-us {
+        display: block;
+    }
+    .about-us img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .department-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .about-us {
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .department-list {
+        grid-template-columns: 1fr;
+    }
+    .about-us {
+        display: block;
+    }
+}

@@ -10,10 +10,11 @@ import Footer from './components/Shared/Footer/Footer';
 import Login from './components/Login/Login/Login';
 import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
+import About from './components/About/About/About';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <AuthProvider>
         <Router>
           <Header></Header>
@@ -27,6 +28,9 @@ function App() {
             <PrivateRoute path='/booked/:serviceId'>
               <Booked></Booked>
             </PrivateRoute>
+            <Route path='/about'>
+              <About></About>
+            </Route>
             <Route path='/contact'>
               <Contact></Contact>
             </Route>

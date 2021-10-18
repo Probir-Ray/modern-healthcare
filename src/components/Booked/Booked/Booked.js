@@ -11,7 +11,7 @@ const Booked = () => {
     }, []);
 
     return (
-        <div className='my-5 w-75 mx-auto'>
+        <div className='my-5 w-75 mx-auto text-center'>
             <h3>{service.name} </h3>
             <img className='w-50' src={service.img} alt={service.name} />
             <br/>

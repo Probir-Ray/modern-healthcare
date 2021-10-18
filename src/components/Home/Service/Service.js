@@ -5,7 +5,7 @@ const Service = (props) => {
     console.log(props.service);
     const {id, name, price, description, img} = props.service;
     return (
-        <div className='card card-default service bg-primary text-white'>
+        <div className='card card-default service bg-primary text-white text-center'>
             <img src={img} alt={name} />
             <div className="card-body">
                 <h3>{name}</h3>

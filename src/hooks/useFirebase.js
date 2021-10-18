@@ -6,6 +6,7 @@ initAuthentication();
 
 const useFirebase = () => {
     const [user, setUser] = useState({})
+    const [isLoading, setIsLoading] = useState(true);
     const auth = getAuth();
 
     const signInUsingGoogle = () => {
@@ -14,6 +15,7 @@ const useFirebase = () => {
         .then(result => {
             setUser(result.user);
         })
+        .finally(() => setIsLoading(false));
     }
 
     // Observe for user state changed.
@@ -24,15 +26,19 @@ const useFirebase = () => {
             } else {
                 setUser({})
             }
+            setIsLoading(false);
         });
         return () => unsubscribe;
     }, [])
 
     // Logout function
     const logout = () => {
+        setIsLoading(true);
         signOut(auth).then(() => {})
+        .finally(() => setIsLoading(false));
     }
     return {
+        isLoading,
         user,
         logout,
         signInUsingGoogle

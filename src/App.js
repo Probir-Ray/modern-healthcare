@@ -9,6 +9,7 @@ import Contact from './components/Contact/Contact/Contact';
 import Footer from './components/Shared/Footer/Footer';
 import Login from './components/Login/Login/Login';
 import AuthProvider from './contexts/AuthProvider';
+import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -23,9 +24,9 @@ function App() {
             <Route path='/home'>
               <Home></Home>
             </Route>
-            <Route path='/booked/:serviceId'>
+            <PrivateRoute path='/booked/:serviceId'>
               <Booked></Booked>
-            </Route>
+            </PrivateRoute>
             <Route path='/contact'>
               <Contact></Contact>
             </Route>

@@ -13,8 +13,8 @@ const Banner = () => {
                 alt="First slide"
                 />
                 <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3 className='mb-3'>COVID-19 Vaccination</h3>
+                <p className='bg-primary p-1'>The coronavirus (COVID-19) vaccine. Your best protection against coronavirus.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -25,8 +25,8 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3 className='mb-3'>Neurosurgery</h3>
+                <p className='bg-primary p-1'>Our top-rated neurosurgeons use advanced imaging and surgical techniques to treat neurological conditions.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -37,8 +37,8 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <h3 className='mb-3'>Surgery</h3>
+                <p className='bg-primary p-1'>Our surgical team includes experts in multiple subspecialty areas who continually research best practices and advance their skills.</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

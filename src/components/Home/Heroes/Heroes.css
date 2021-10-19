@@ -1,0 +1,20 @@
+.heroes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
+.hero {
+    border: 2px solid #f3f3f3;
+    padding: 15px;
+}
+
+.hero img {
+    width: 80%;
+}
+
+@media only screen and (max-width: 800px) {
+    .heroes {
+        grid-template-columns: 1fr;
+    }
+}

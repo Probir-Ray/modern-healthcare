@@ -7,3 +7,15 @@
 img{
     width: 100%;
 }
+
+@media only screen and (max-width: 700px) {
+    .service-box {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1020px) {
+    .service-box {
+        grid-template-columns: 1fr 1fr;
+    }
+}

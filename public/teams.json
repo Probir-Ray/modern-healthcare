@@ -1,0 +1,30 @@
+[
+   {
+     "id": 1,
+     "name": "Dr. Steve Finn",
+     "qualification": "MBBS , DGO , DNB (Obstetrics)",
+     "certification": "National Specialist Register in Pregnancy",
+     "img": "https://onelifewp.wpengine.com/wp-content/uploads/2016/05/doctor-4.jpg"
+   },
+   {
+      "id": 2,
+      "name": "Dr. KATE WINSLET",
+      "qualification": "MBBS , DGO , DNB (Gynecology)",
+      "certification": "Gynecology Department of Science Major",
+      "img": "https://onelifewp.wpengine.com/wp-content/uploads/2016/05/doctor-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Dr. DOLPH ZINGLER",
+      "qualification": "MBBS , DGO",
+      "certification": "Medicine Specialist",
+      "img": "https://onelifewp.wpengine.com/wp-content/uploads/2016/05/doctor-1.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Dr. CHRIS MARTIN",
+      "qualification": "Neurology - M.D, PH.D",
+      "certification": "Neurologists",
+      "img": "https://onelifewp.wpengine.com/wp-content/uploads/2016/05/doctor-3.jpg"
+    }
+ ]

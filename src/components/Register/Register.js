@@ -13,6 +13,10 @@ const Register = () => {
 
     const handelRegistration = e => {
         e.preventDefault();
+        if(password.length < 6) {
+            setError('Password should be 6 character');
+            return;
+        } 
         createUserWithEmailAndPassword(auth, email, password)
         .then(result => {
             const user = result.user;
@@ -36,6 +40,7 @@ const Register = () => {
     return (
         <div className='container my-5 text-center'>
             <h2>Registration Page</h2>
+            <p className="text-dange">{error}</p>
             <form onSubmit={handelRegistration} className="row g-3 w-50 mx-auto mt-2 mb-4">
                 <div className="col-md-12">
                     <input type="email" onBlur={handelEmailBlur} className="form-control" placeholder="Enter Your Email" required/>

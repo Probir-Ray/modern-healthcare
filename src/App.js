@@ -38,9 +38,6 @@ function App() {
             <Route path='/login'>
               <Login></Login>
             </Route>
-            <Route path='/register'>
-              <Register></Register>
-            </Route>
             <Route path='*'>
               <NotFound></NotFound>
             </Route>

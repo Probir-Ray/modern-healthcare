@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "title": "3 Daily Habits to Help Reduce Stress",
+      "shortDesc": "It’s been a tough few weeks. Our hospitals have become overwhelmed with COVID-19 patients, and deaths rates are rising.",
+      "longDesc": "It’s been a tough few weeks. Our hospitals have become overwhelmed with COVID-19 patients, and deaths rates are rising. Vaccine distribution has been slower than we had hoped. And then there was the chaotic, disturbing event at the Capitol. On top of all of that, there are the daily questions: How can I stay safe? When will I be able to see my family and friends?  How long till we get back to normal? Any of the issues, alone, would stress us out -- but right now, everything seems to be happening at once. The question is, how do we stay sane and grounded at this time? And how do we help our families do the same? I rely on three simple daily rituals to help myself stay calm during challenging times.",
+      "img": "https://images.pexels.com/photos/7490524/pexels-photo-7490524.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "date": "JANUARY 15, 2021"
+    },
+    {
+        "id": 2,
+        "title": "Vaccines Are Close!",
+        "shortDesc": "Almost 10 months since life got “locked down” due to COVID-19. This new normal has not been easy for anyone.",
+        "longDesc": "It has been almost 10 months since life got “locked down” due to COVID-19. This new normal has not been easy for anyone. Being significantly restricted in our daily lives, wearing masks, hearing bad news about the pandemic constantly, and working from home has changed how we live our lives. And then there are some of us who have been devastated: We may have gotten sick, suffered financial hardship, or lost someone in our family to COVID. And the social isolation we’ve all had to endure has had a deep impact on our mental health.",
+        "img": "https://images.pexels.com/photos/3735747/pexels-photo-3735747.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=800",
+        "date": "JANUARY 11, 2021"
+      },
+      {
+        "id": 3,
+        "title": "How to Decide if It's Safe to Play",
+        "shortDesc": "Many parents have asked me lately whether it’s OK for kids to go back to fall sports. We know that COVID-19 is still out there.",
+        "longDesc": "It’s a tough question. We know that COVID-19 is very contagious -- the CDC just restated that it is spread through aerosols, which means that infected particles from our nose and mouth can be suspended in the air for hours. And there are still hot spots all over our country, with some counties more infectious than others. Having said that, our kids have had a difficult 6 months. And the pandemic won’t be ending anytime soon. We also know that it will take time for the vaccine to get approved and there are still some questions about how long it will take for it to be available for everyone, which means that we still have at least months of restrictions, if not a year.",
+        "img": "https://images.pexels.com/photos/7933284/pexels-photo-7933284.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=800",
+        "date": "JANUARY 9, 2021"
+      },
+      {
+        "id": 4,
+        "title": "3 Simple Changes That Lowered Blood Pressure",
+        "shortDesc": "2018 was a really tough year for my mom. She was hospitalized three times for the same issue -- her blood pressure was dangerously high.",
+        "longDesc": "The first time, she had a bad headache and noticed that her blood pressure was 170/95. We rushed her to the hospital, and she was admitted. After several rounds of medication, she was released with instructions to take two BP medicines. Two months later, she was back at the emergency room, and then again 6 months later. It was awful. Even as a doctor myself, I felt helpless and very worried about what could happen.",
+        "img": "https://images.pexels.com/photos/5721671/pexels-photo-5721671.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=800",
+        "date": "December 3, 2020"
+      }
+  ]

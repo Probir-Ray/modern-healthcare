@@ -9,7 +9,7 @@ const Heroes = () => {
         fetch(url).then(res => res.json()).then(data => setHeroes(data))
     }, [])
     return (
-        <div className='container text-center mb-5'>
+        <div className='container text-center mt-5'>
             <h2 className='text-center my-3'>Our Heroes</h2>
             <div className="heroes">
                 {
